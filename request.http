@@ -1,0 +1,14 @@
+### get all
+http://localhost:3000/person/all
+
+### get by id
+http://localhost:3000/person/3
+
+### create
+POST http://localhost:3000/person/add
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "age": 21
+}
